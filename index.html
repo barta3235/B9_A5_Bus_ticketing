@@ -9,12 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/busTicket.css">
     <title>Ph Travels</title>
 </head>
 <body class=".font-raleway">
     
     <main>
-        <section class="nav lg:mx-[120px] mb-[30px]">
+        <section class="nav lg:mx-[120px] mb-[30px] mt-[30px]">
             
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -47,7 +53,7 @@
 
         </section>
 
-        <section class="banner lg:mx-[120px] lg:relative flex flex-col">   
+        <section class="banner lg:mx-[120px] flex flex-col mb-[20px] lg:mb-[62px]">   
         
             <div class="flex flex-col justify-center items-center bg-[url(images/banner.png)] bg-cover rounded-3xl">
                <h1 class="mt-[70px] mb-4 lg:mb-8 text-4xl lg:text-[64px] font-extrabold text-center text-white">End-to-End Travel with
@@ -58,8 +64,8 @@
             </div>
 
 
-            <div class="banner-temp flex flex-col lg:flex-row gap-6 mt-[10px] lg:mt-0 lg:absolute lg:-bottom-[70px] lg: left-[17%]">
-                <div class="bg-white flex items-center justify-center lg:justify-between  py-5 px-6 gap-4 rounded-3xl border-b-[5px] border-b-[#1DD100]">
+            <div class="banner-temp flex flex-col lg:flex-row gap-6 mt-[20px] lg:mt-[10px] justify-center">
+                <div class=" bg-white flex items-center justify-center lg:justify-between  py-5 px-6 gap-5 lg:gap-4 rounded-3xl border-b-[5px] border-b-[#1DD100] border-l-[#1DD100] border-l-[5px] border-r-[2px] border-t-[2px]">
                   <img src="images/people.png" alt="">
                   <div class="flex flex-col">
                       <h1 class="text-[36px] font-bold">500K+</h1>
@@ -67,16 +73,16 @@
                   </div>
                 </div>
   
-                <div class=" bg-white flex items-center justify-center lg:justify-between  py-5 px-6 gap-4 rounded-3xl border-b-[5px] border-b-[#1DD100]">
-                  <img src="images/people.png" alt="">
+                <div class=" bg-white flex items-center justify-center lg:justify-between  py-5 px-6 gap-5 lg:gap-4 rounded-3xl border-b-[5px] border-b-[#1DD100] border-l-[#1DD100] border-l-[5px] border-r-[2px] border-t-[2px]">
+                  <img src="images/ticket-cupon.png" alt="">
                   <div class="flex flex-col">
                       <h1 class="text-[36px] font-bold">1.7 lacks</h1>
                       <p class="text-[18px] font-normal">Tickets Sold</p>
                   </div>
                 </div>
   
-                <div class=" bg-white flex items-center justify-center lg:justify-between  py-5 px-6 lg:gap-4 rounded-3xl border-b-[5px] border-b-[#1DD100]">
-                  <img src="images/people.png" alt="">
+                <div class=" bg-white flex items-center justify-center lg:justify-between  py-5 px-6 gap-5 lg:gap-4 rounded-3xl border-b-[5px] border-b-[#1DD100] border-l-[#1DD100] border-l-[5px] border-r-[2px] border-t-[2px]">
+                  <img src="images/stoppage.png" alt="">
                   <div class="flex flex-col">
                       <h1 class="text-[36px] font-bold">80K+</h1>
                       <p class="text-[18px] font-normal">Rental Partners</p>
@@ -85,10 +91,116 @@
               </div>
         </section>
 
-        <section class="flex justify-center z-0">
+        <section class="lg:mx-[120px] mt-[30px] lg:mt-[100px] mb-[20px] lg:mb-[120px]">
+            <h1 class="text-[47px] font-bold text-center mb-[48px]">Best offers for you</h1>
 
+            <div class="flex flex-col lg:flex-row lg:gap-[24px] lg:justify-center mb-[20px] lg:mb-[62px]">
+                 <!-- 15% off coupon -->
+                <div class="flex gap-1 border-2">
+                   <div class="bg-[#FFBF0F] rounded-tl-[24px] rounded-bl-[24px] border-r-[5px] py-5 px-5 lg:py-12 lg:px-12 border-dashed font-inter flex flex-col flex-1">
+                      <h1 class="text-[40px] font-black border-4">15% off</h1>
+                      <h3 class="text-[20px] font-semibold border-4">on your next purchase</h3>
+                      <p class="text-[18px] font-medium">use by January 2024</p>
+                   </div>
+                   <div class="flex-1 border-2 bg-[#FFBF0F] rounded-tr-[24px] rounded-br-[24px] py-5 px-5 lg:py-12 lg:px-12 font-raleway flex flex-col items-center justify-center">
+                    <h1 class="text-[32px] font-bold">NEW15</h1>
+                    <h3 class="text-[20px] font-medium">Coupon Code</h3>
+                   </div>
+                </div>
+
+                <!-- 20% couple -->
+                <div class="flex gap-1">
+                    <div class="bg-[#F78C9C] rounded-tl-[24px] rounded-bl-[24px] border-r-[5px] py-5 px-5 lg:py-12 lg:px-12 border-dashed font-inter flex flex-col flex-1">
+                       <h1 class="text-[40px] font-black">20% off</h1>
+                       <h3 class="text-[20px] font-semibold">on your next purchase</h3>
+                       <p class="text-[18px] font-medium">use by January 2024</p>
+                    </div>
+                    <div class="bg-[#F78C9C] rounded-tr-[24px] rounded-br-[24px] py-5 px-5 lg:py-12 lg:px-12 font-raleway flex flex-col items-center justify-center flex-1">
+                     <h1 class="text-[32px] font-bold">Couple 20</h1>
+                     <h3 class="text-[20px] font-medium">Coupon Code</h3>
+                    </div>
+                </div>
+                 
+            </div>
+
+            <div class="flex justify-center">
+                <button class="text-[#1DD100] font-bold font-raleway flex items-center gap-3 py-4 px-[30px] rounded-[24px] text-[20px] border-2 border-[#1DD100]">See All Offers</button>
+            </div>
         
         </section>
+
+
+
+        
+        <section class="bg-[#F7F8F8] border-t-[3px] rounded-t-[32px] border-[#1DD100] p">
+            <h1 class="mt-[120px] text-center text-[40px] font-bold mb-6">P.H Paribahan</h1>
+            <p class="text-[18px] font-normal text-center text-gray-600 mb-[40px]">Looking for great deals on bus tickets? We'll make it P-Ticket for you! Get the lowest<br>prices, and renowned bus operators - all in one place</p>
+
+            <!-- big ticket ONE-->
+        <div class="flex gap-2 lg:mx-[130px] flex-col lg:flex-row">
+            <!-- big ticket ONE left side-->
+            <div class="border-r-[5px] border-dashed flex-auto rounded-l-3xl p-8 bg-white">
+             
+                <div class="bg-white flex justify-between items-center mb-6 flex-col lg:flex-row">
+                    <!-- green line paribahan  -->
+                    <div class="flex gap-4 items-center justify-center mb-5 lg:mb-0">
+                        <img src="images/bus-logo.png" alt="">
+                        <div>
+                            <h1 class="text-[32px] font-bold font-raleway">GreenLine Paribahan</h1>
+                            <p class="text-[18px] font-normal font-inter text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                        </div>
+                     </div>
+    
+                     <!-- 40 seats -->
+    
+                     <div class="flex gap-2 p-4 bg-[#1DD10026] rounded-xl justify-center items-center">
+                        <img src="images/seat-green.png" alt="">
+                        <h1 class="font-inter text-[#1DD100] text-[18px] font-medium"><span>40</span>Seats Left</h1>
+                     </div>
+                </div>
+    
+                <div class="bg-[#F7F8F8] p-8 rounded-3xl">
+                     <div class="font-raleway flex justify-between mb-6">
+                        <h1 class="text-[18px] font-semibold text-[#03071299]">Route</h1>
+                        <h1 class="text-[18px] font-semibold text-black">Dhaka - Sylhet</h1>
+                     </div>
+                     <hr>
+                     <div class="font-raleway flex justify-between mt-6 mb-6">
+                        <h1 class="text-[18px] font-semibold text-[#03071299]">Departure Time</h1>
+                        <h1 class="text-[18px] font-semibold text-black">9:00 PM</h1>
+                     </div>
+                     <hr>
+                     <div class="mt-6 flex justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                         <div class="bg-[#0307120D] rounded-xl p-[15px]">
+                               <h1 class="font-inter font-medium">Boarding Point - Laxmipur</h1>
+                         </div>
+                         <div class="bg-[#0307120D] rounded-xl p-[15px]">
+                            <h1 class="font-inter font-medium">Dropping Point - Bogura</h1>
+                         </div>
+                         <div class="bg-[#0307120D] rounded-xl p-[15px]">
+                           <h1 class="font-inter font-medium">Est. Time - 11 Hour</h1>
+                         </div>
+                     </div>
+                </div>
+    
+              </div>
+    
+              <!-- big ticket ONE right side-->
+              <div class="flex flex-col justify-center items-center flex-auto bg-white rounded-r-3xl border-l-[5px] border-dashed">
+                 <img src="images/fare.png" alt="">
+                 <h1 class="mt-[24px] font-raleway text-[32px] font-semibold">550 Taka</h1>
+                 <hr class="w-[60%] text-[#1DD100]">
+                 <p class="text-[24px] font-semibold font-raleway text-[#03071299]">Per Seat</p>
+    
+              </div>
+        </div>
+ 
+        </section>
+
+    
+
+
+
     </main>
 
 

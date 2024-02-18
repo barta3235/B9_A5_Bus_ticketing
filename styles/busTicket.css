@@ -1,3 +1,13 @@
 .font-raleway{
     font-family: "Raleway", sans-serif;
 }
+
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+
+hr{
+    width:100%;
+    border: 1px dashed; 
+    color:#03071233;
+}
