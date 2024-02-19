@@ -17,10 +17,18 @@ function book(e){
         seatUp();
         count=count-1;
     }else if(count<=0){
-        alert("You cannot book more than 4 seats at once. Sorry for the inconvenience");
+        alert("You cannot book more than 4 seats at once. Sorry for the inconvenience\nSelect Again!");
+        location.reload();
     }else if(arr.includes(e.target.id)=== true){
-        alert("You cannot choose the same seat twice\nPlease select another seat!");
+        alert("You cannot choose the same seat twice\nPlease select another seat!\nSelect Again");
+        location.reload();
     }else{
-        alert('Refresh the page');
+        location.reload();
     }
+
+    addToCart(e.target.id);
+}
+
+function addToCart(){
+
 }
