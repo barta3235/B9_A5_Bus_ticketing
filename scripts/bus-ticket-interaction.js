@@ -93,6 +93,10 @@ function discount(){
     }
 }
 
+function reloadPage(){
+    window.location.reload();
+}
+
 
 
 
