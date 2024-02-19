@@ -18,3 +18,9 @@ function seatUp(){
     newSeats=numOfSeats+1;
     element.innerText=newSeats;
 }
+
+
+function setGrandPrize(elementId){
+    const element= document.getElementById(elementId);
+    element.classList.add('bg-[#1DD100]','text-white', 'text-[20px]','px-[5px]','py-[2px]','rounded-3xl','text-center');
+}

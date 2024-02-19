@@ -55,6 +55,45 @@ function addToCart(elementId){
 }
 
 
+function discount(){
+    const coupon=document.getElementById('coupon');
+    if(coupon.value === 'NEW15'){
+        const price=document.getElementById('nonDiscountMoney');
+        const tkText= (price.innerText);
+        const tkInt= parseInt(tkText);
+        console.log(tkInt);
+        const discount= tkInt*0.15;
+        const discountedPrice = tkInt - discount;
+        
+        const grandPrize= document.getElementById('grandTotal');
+        const inputContainer= document.getElementById('input-container');
+        inputContainer.classList.add('hidden');
+        grandPrize.innerText=discountedPrice;
+        setGrandPrize('green');
+    }else if(coupon.value === 'Couple 20'){
+        const price2=document.getElementById('nonDiscountMoney');
+        const tkText2= (price2.innerText);
+        const tkInt2= parseInt(tkText2);
+        console.log(tkInt2);
+        const discount2= tkInt2*0.20;
+        const discountedPrice2 = tkInt2 - discount2;
+        
+        const grandPrize2= document.getElementById('grandTotal');
+        const inputContainer2= document.getElementById('input-container');
+        inputContainer2.classList.add('hidden');
+        grandPrize2.innerText=discountedPrice2;
+        setGrandPrize('green');
+    }else{
+        const price3=document.getElementById('nonDiscountMoney');
+        const tkText3= (price3.innerText);
+        const tkInt3= parseInt(tkText3);
+        
+        const grandPrize3= document.getElementById('grandTotal');
+        grandPrize3.innerText=tkInt3;
+    }
+}
+
+
 
 
 

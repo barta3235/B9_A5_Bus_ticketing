@@ -337,10 +337,10 @@
 
 <!-- 
               input -->
-              <div class="mt-4 mb-6">
+              <div id="input-container" class="mt-4 mb-6">
                 <label class="input input-bordered flex flex-col lg:flex-row items-center justify-between gap-2 w-full">
-                    <input type="text" class="flex justify-end" placeholder="Have any coupon?" />
-                    <button class="bg-[#1DD100] text-white rounded-lg font-semibold px-4 py-1">Apply</button>
+                    <input id="coupon" type="text" class="flex justify-end" placeholder="Have any coupon?" />
+                    <button onclick="discount()" class="bg-[#1DD100] text-white rounded-lg font-semibold px-4 py-1">Apply</button>
                   </label>
               </div>
 
@@ -354,7 +354,7 @@
                     <tr>
                       <th class="text-[17px] text-black font-medium">Grand Total</th>
                       <th class="text-[17px] text-black font-medium hidden opacity-0 lg:flex">-----</th>
-                      <th class="text-[17px] text-black font-medium">BDT <span>0</span></th>
+                      <th class="text-[17px] text-black font-medium"><p id="green">BDT <span id="grandTotal">0</span></p></th>
                     </tr>
                   </thead>
                   <tbody class="bg-slate-50">
