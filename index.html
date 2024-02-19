@@ -297,7 +297,7 @@
             <!-- table table table table -->
             
             <div class="overflow-x-auto rounded-t-xl">
-                <table class="table">
+                <table id="mainTable" class="table">
                   <!-- head -->
                   <thead class="bg-slate-300">
                     <tr>
@@ -306,13 +306,7 @@
                       <th class="text-[17px] text-black font-medium">Price</th>
                     </tr>
                   </thead>
-                  <tbody class="bg-slate-50">
-                    <!-- row 1 -->
-                    <tr>
-                      <td>A1</td>
-                      <td>Economy</td>
-                      <td>550</td>
-                    </tr>
+                  <tbody id="mainCart">
 
                   </tbody>
                 </table>
@@ -329,7 +323,7 @@
                     <tr>
                       <th class="text-[17px] text-black font-medium">Total Price</th>
                       <th class="text-[17px] text-black font-medium hidden opacity-0 lg:flex">------</th>
-                      <th class="text-[17px] text-black font-medium">BDT <span>0</span></th>
+                      <th class="text-[17px] text-black font-medium">BDT <span id="nonDiscountMoney">0</span></th>
                     </tr>
                   </thead>
                   <tbody class="bg-slate-50">
